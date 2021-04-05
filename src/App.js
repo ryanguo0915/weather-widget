@@ -121,7 +121,6 @@ const App = () => {
       getCityName(location[0], location[1]);
     }
   }, [shouldCallForCityName]);
-  console.log(currentCityInfo);
   return (
     <div className="App">
       {error.length === 0 ? (
